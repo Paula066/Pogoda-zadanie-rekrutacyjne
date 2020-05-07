@@ -1,0 +1,23 @@
+{
+  "name": "zadanie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "scss": "node-sass ./style.scss -o . --output-style expanded",
+    "scss:watch": "npm run scss && node-sass ./style.scss -wo . --output-style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paula066/zadanie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paula066/zadanie/issues"
+  },
+  "homepage": "https://github.com/Paula066/zadanie#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
