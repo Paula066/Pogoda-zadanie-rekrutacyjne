@@ -1,0 +1,218 @@
+[
+    {
+        "hour": 0,
+        "rainChancePercent": 53,
+        "temperature": "-5",
+        "rainMm": 0,
+        "windDegree": 74,
+        "windSpeed": 18,
+        "hpa": 1031
+    },
+    {
+        "hour": 1,
+        "rainChancePercent": 6,
+        "temperature": 2,
+        "rainMm": "1.9",
+        "windDegree": 39,
+        "windSpeed": 1,
+        "hpa": 1097
+    },
+    {
+        "hour": 2,
+        "rainChancePercent": 97,
+        "temperature": 10,
+        "rainMm": "0.2",
+        "windDegree": 337,
+        "windSpeed": 0,
+        "hpa": 977
+    },
+    {
+        "hour": 3,
+        "rainChancePercent": 73,
+        "temperature": 5,
+        "rainMm": "1.7",
+        "windDegree": 185,
+        "windSpeed": 6,
+        "hpa": 956
+    },
+    {
+        "hour": 4,
+        "rainChancePercent": 81,
+        "temperature": "-1",
+        "rainMm": "1.9",
+        "windDegree": 260,
+        "windSpeed": 14,
+        "hpa": 1085
+    },
+    {
+        "hour": 5,
+        "rainChancePercent": 95,
+        "temperature": 2,
+        "rainMm": "1.3",
+        "windDegree": 148,
+        "windSpeed": 1,
+        "hpa": 1080
+    },
+    {
+        "hour": 6,
+        "rainChancePercent": 78,
+        "temperature": 1,
+        "rainMm": "0.5",
+        "windDegree": 236,
+        "windSpeed": 26,
+        "hpa": 1093
+    },
+    {
+        "hour": 7,
+        "rainChancePercent": 34,
+        "temperature": "-3",
+        "rainMm": "1.4",
+        "windDegree": 20,
+        "windSpeed": 16,
+        "hpa": 979
+    },
+    {
+        "hour": 8,
+        "rainChancePercent": 10,
+        "temperature": 10,
+        "rainMm": "1.2",
+        "windDegree": 186,
+        "windSpeed": 28,
+        "hpa": 970
+    },
+    {
+        "hour": 9,
+        "rainChancePercent": 37,
+        "temperature": 5,
+        "rainMm": "0.2",
+        "windDegree": 61,
+        "windSpeed": 18,
+        "hpa": 1048
+    },
+    {
+        "hour": 10,
+        "rainChancePercent": 47,
+        "temperature": "-4",
+        "rainMm": "1.9",
+        "windDegree": 273,
+        "windSpeed": 23,
+        "hpa": 1005
+    },
+    {
+        "hour": 11,
+        "rainChancePercent": 61,
+        "temperature": "-3",
+        "rainMm": "1.5",
+        "windDegree": 247,
+        "windSpeed": 21,
+        "hpa": 1082
+    },
+    {
+        "hour": 12,
+        "rainChancePercent": 52,
+        "temperature": 4,
+        "rainMm": "1.2",
+        "windDegree": 123,
+        "windSpeed": 5,
+        "hpa": 1097
+    },
+    {
+        "hour": 13,
+        "rainChancePercent": 89,
+        "temperature": "-1",
+        "rainMm": "1.3",
+        "windDegree": 26,
+        "windSpeed": 13,
+        "hpa": 951
+    },
+    {
+        "hour": 14,
+        "rainChancePercent": 72,
+        "temperature": "-4",
+        "rainMm": "0.1",
+        "windDegree": 179,
+        "windSpeed": 27,
+        "hpa": 1088
+    },
+    {
+        "hour": 15,
+        "rainChancePercent": 76,
+        "temperature": 6,
+        "rainMm": 1,
+        "windDegree": 191,
+        "windSpeed": 21,
+        "hpa": 1048
+    },
+    {
+        "hour": 16,
+        "rainChancePercent": 43,
+        "temperature": "-5",
+        "rainMm": "0.2",
+        "windDegree": 91,
+        "windSpeed": 3,
+        "hpa": 1072
+    },
+    {
+        "hour": 17,
+        "rainChancePercent": 51,
+        "temperature": "-3",
+        "rainMm": "1.9",
+        "windDegree": 127,
+        "windSpeed": 6,
+        "hpa": 1040
+    },
+    {
+        "hour": 18,
+        "rainChancePercent": 97,
+        "temperature": 10,
+        "rainMm": "1.9",
+        "windDegree": 285,
+        "windSpeed": 17,
+        "hpa": 1055
+    },
+    {
+        "hour": 19,
+        "rainChancePercent": 55,
+        "temperature": "-4",
+        "rainMm": "0.2",
+        "windDegree": 45,
+        "windSpeed": 7,
+        "hpa": 1001
+    },
+    {
+        "hour": 20,
+        "rainChancePercent": 4,
+        "temperature": 10,
+        "rainMm": "0.1",
+        "windDegree": 13,
+        "windSpeed": 19,
+        "hpa": 1075
+    },
+    {
+        "hour": 21,
+        "rainChancePercent": 15,
+        "temperature": 5,
+        "rainMm": "1.6",
+        "windDegree": 12,
+        "windSpeed": 16,
+        "hpa": 958
+    },
+    {
+        "hour": 22,
+        "rainChancePercent": 12,
+        "temperature": 2,
+        "rainMm": "1.9",
+        "windDegree": 158,
+        "windSpeed": 25,
+        "hpa": 1038
+    },
+    {
+        "hour": 23,
+        "rainChancePercent": 4,
+        "temperature": "-2",
+        "rainMm": "0.9",
+        "windDegree": 198,
+        "windSpeed": 3,
+        "hpa": 1049
+    }
+]

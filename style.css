@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.whether {
+  margin-top: 4rem;
+  display: flex;
+  color: gray;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.whether__box-left {
+  flex-basis: 5%;
+  border-right: 1px solid;
+}
+
+.whether__data {
+  border-bottom: 1px solid gray;
+}
+
+.whether__data:last-child {
+  border-bottom: 0;
+}
+
+.whether__data--day {
+  padding: 1rem 0;
+}
+
+.whether__data--hour {
+  padding: 2.5rem 0;
+}
+
+.whether__data--forecast {
+  padding: 2.5rem 0;
+}
+
+.whether__data--temperature {
+  padding: 10rem 0;
+}
+
+.whether__data--rain {
+  padding: 5rem 0;
+}
+
+.whether__data--windDegree {
+  padding: 3.6rem;
+}
+
+.whether__data--windSpeed {
+  padding: 2.7rem;
+}
+
+.whether__data--hpa {
+  padding: 9rem;
+}
+
+.whether__dataHour {
+  display: flex;
+}

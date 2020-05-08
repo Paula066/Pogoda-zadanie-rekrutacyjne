@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.whether {
+    margin-top: 4rem;
+    display: flex;
+    color: gray;
+    font-size: 1.5rem;
+    text-align: center;
+    &__box {
+        &-left {
+            flex-basis: 5%;
+            border-right: 1px solid;
+        }
+        &-right {
+
+        }
+    }
+    &__data {
+        border-bottom: 1px solid gray;
+        &:last-child {
+            border-bottom: 0;
+        }
+        
+        &--day {
+            padding: 1rem 0;
+        }
+        &--hour {
+           padding: 2.5rem 0;
+        }
+        &--forecast {
+            padding: 2.5rem 0;
+        }
+        &--temperature {
+            padding: 10rem 0;
+        }
+        &--rain {
+            padding: 5rem 0;
+        }
+
+        &--windDegree {
+            padding: 3.6rem;
+        }
+
+        &--windSpeed {
+            padding: 2.7rem;
+        }
+
+        &--hpa {
+            padding: 9rem;
+        }
+    }
+
+    &__dataHour {
+        display: flex;
+    }
+}
+
+
