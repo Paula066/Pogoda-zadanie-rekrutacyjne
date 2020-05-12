@@ -25,6 +25,11 @@ body {
   text-align: center;
 }
 
+.whether__img {
+  width: 100%;
+  height: 100%;
+}
+
 .whether__text {
   max-width: 7.3rem;
   min-width: 7.3rem;
