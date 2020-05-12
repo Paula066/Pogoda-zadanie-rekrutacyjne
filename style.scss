@@ -21,55 +21,102 @@ body {
     margin-top: 4rem;
     display: flex;
     color: gray;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
-    &__box {
-        &-left {
-            flex-basis: 5%;
-            border-right: 1px solid;
-        }
-        &-right {
 
+    &__img{
+        width: 100%;
+        height: 100%;
+    }
+    &__text {
+        max-width:7.3rem;
+        min-width: 7.3rem;
+        border-right: 1px solid #eeeeee;
+        border-bottom: 1px solid #eeeeee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+
+    }
+    &__boxData2 {
+        display: flex;
+        flex-direction: column;
+    }
+    &__box {
+        &-right {
+           display: flex;
         }
     }
     &__data {
-        border-bottom: 1px solid gray;
-        &:last-child {
-            border-bottom: 0;
-        }
-        
-        &--day {
-            padding: 1rem 0;
-        }
-        &--hour {
-           padding: 2.5rem 0;
-        }
-        &--forecast {
-            padding: 2.5rem 0;
-        }
-        &--temperature {
-            padding: 10rem 0;
-        }
-        &--rain {
-            padding: 5rem 0;
-        }
-
-        &--windDegree {
-            padding: 3.6rem;
-        }
-
-        &--windSpeed {
-            padding: 2.7rem;
-        }
-
-        &--hpa {
-            padding: 9rem;
-        }
+        display: flex;
+    
     }
 
     &__dataHour {
         display: flex;
+        color: black;
+        font-size: 1.4rem;
+
     }
+
+    &__desc {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        max-width: 80px;
+        min-width: 80px;   
+        border-right: 1px solid #eeeeee;
+        &--hour {
+            font-weight: 500;
+        }
+
+        &--temp {
+            font-weight: 500;
+            font-size: 1.7rem;
+            padding: 4.2rem 0;
+            &::after {
+                content: "\00b0"
+            }
+        }
+
+        &--rainMm {
+            padding: 5rem 0 0;
+            font-size: 1.1rem;
+        }
+
+        &--hour {
+            padding: 0.8rem 0;
+        }
+
+        &--windDegree
+        {
+            padding: 2rem 0;
+            background-color: #f0f0f0;
+            border-right:1px solid white;
+            font-size: 1rem;
+        }
+
+        &--windSpeed {
+            padding: 1rem 0;
+            font-size: 1rem;
+            background-color: #f0f0f0;
+            border-right:1px solid white;
+        }
+
+        &--hpa {
+            padding: 4.5rem 0;
+            font-size: 1rem;
+        }
+    }
+
+    &__img {
+        width: 90%;
+        height: 90%;
+    }
+
+    
 }
+
+
 
 

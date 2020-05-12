@@ -1,6 +1,6 @@
 class Weather {
     getWeather(cb) {
-        const url = 'https://next.json-generator.com/api/json/get/EJ3LSJptO';
+        const url = 'https://next.json-generator.com/api/json/get/4ko3FfRKO';
         fetch(url, {
             method: 'GET',
             mode: "cors",
