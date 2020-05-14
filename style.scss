@@ -19,16 +19,15 @@ body {
 
 .whether {
     margin-top: 4rem;
-    display: flex;
     color: gray;
     font-size: 1rem;
     text-align: center;
-    overflow: hidden;
 
     &__img{
         width: 100%;
         height: 100%;
     }
+
     &__text {
         border-right: 1px solid #eeeeee;
         border-bottom: 1px solid #eeeeee;
@@ -38,19 +37,14 @@ body {
         font-size: 1rem;
 
     }
+
     &__boxData2 {
         display: flex;
         flex-direction: column;
     }
-    &__box {
-        &-right {
-           display: flex;
 
-        }
-    }
     &__data {
         display: flex;
-    
     }
 
     &__dataHour {
@@ -60,39 +54,73 @@ body {
 
     }
 
+    &__box {
+        &-right {
+            display: flex;
+        }
+    }
+
+    &__descLeft {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #eeeeee;
+        padding: 0 1rem;
+    }
+
     &__desc {
         border-right: 1px solid #eeeeee;
         display: flex;
         justify-content: center;
+        &--day {
+            height: 2.1rem;
+        }
+
         &--hour {
+            height: 2rem;
             font-weight: 500;
+        }
+
+        &--hours {
+            height: 2rem;
+        }
+
+        &--ico {
+            height: 4.5rem;
         }
 
         &--temperature {
             font-weight: 500;
             font-size: 1.7rem;
-            padding: 6.5rem 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 10rem;
             &::after {
                 content: "\00b0"
             }
         }
 
+        &--temp {
+            height: 10rem;
+        }
+
         &--rain {
-            padding: 5rem 0 0;
             font-size: 1.1rem;
             display: flex;
             flex-direction: column;
-            height: 80px;
+            height: 7rem;
             justify-content: flex-end;
         }
 
-        &--hour {
-            padding: 0.8rem 0;
+        &--rains {
+            height: 7rem;
         }
+
 
         &--windDegree
         {
-            padding: 2rem 0;
+            height: 5rem;
             background-color: #f0f0f0;
             border-right:1px solid white;
             font-size: 1rem;
@@ -102,8 +130,12 @@ body {
             align-items: center;
         }
 
+        &--windDegrees {
+            height: 5rem;
+        }
+
         &--windSpeed {
-            padding: 1rem 0;
+            height: 6rem;
             font-size: 1rem;
             background-color: #f0f0f0;
             border-right:1px solid white;
@@ -111,9 +143,16 @@ body {
             flex-direction: column;
         }
 
+        &--windSpeeds { 
+            height: 6rem;
+        }
+
         &--hpa {
-            padding: 4.3rem 0;
+            height: 8.6rem;
             font-size: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 
@@ -131,7 +170,35 @@ body {
         background: #65cafa;
     }
 
-    
+    &__leftSide {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border-right: 1px solid #eeeeee;
+    }
+}
+
+.owl-nav {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+}
+
+.owl-dots {
+    display: none;
+}
+
+button.owl-prev {
+    position: absolute;
+    left: 0;
+    outline: none;
+
+}
+
+button.owl-next {
+    position: absolute;
+    right: 0;
+    outline: none;
 }
 
 

@@ -19,11 +19,9 @@ body {
 
 .whether {
   margin-top: 4rem;
-  display: flex;
   color: gray;
   font-size: 1rem;
   text-align: center;
-  overflow: hidden;
 }
 
 .whether__img {
@@ -45,10 +43,6 @@ body {
   flex-direction: column;
 }
 
-.whether__box-right {
-  display: flex;
-}
-
 .whether__data {
   display: flex;
 }
@@ -59,41 +53,72 @@ body {
   font-size: 1.4rem;
 }
 
+.whether__box-right {
+  display: flex;
+}
+
+.whether__descLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+  padding: 0 1rem;
+}
+
 .whether__desc {
   border-right: 1px solid #eeeeee;
   display: flex;
   justify-content: center;
 }
 
+.whether__desc--day {
+  height: 2.1rem;
+}
+
 .whether__desc--hour {
+  height: 2rem;
   font-weight: 500;
+}
+
+.whether__desc--hours {
+  height: 2rem;
+}
+
+.whether__desc--ico {
+  height: 4.5rem;
 }
 
 .whether__desc--temperature {
   font-weight: 500;
   font-size: 1.7rem;
-  padding: 6.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
 }
 
 .whether__desc--temperature::after {
   content: "\00b0";
 }
 
+.whether__desc--temp {
+  height: 10rem;
+}
+
 .whether__desc--rain {
-  padding: 5rem 0 0;
   font-size: 1.1rem;
   display: flex;
   flex-direction: column;
-  height: 80px;
+  height: 7rem;
   justify-content: flex-end;
 }
 
-.whether__desc--hour {
-  padding: 0.8rem 0;
+.whether__desc--rains {
+  height: 7rem;
 }
 
 .whether__desc--windDegree {
-  padding: 2rem 0;
+  height: 5rem;
   background-color: #f0f0f0;
   border-right: 1px solid white;
   font-size: 1rem;
@@ -103,8 +128,12 @@ body {
   align-items: center;
 }
 
+.whether__desc--windDegrees {
+  height: 5rem;
+}
+
 .whether__desc--windSpeed {
-  padding: 1rem 0;
+  height: 6rem;
   font-size: 1rem;
   background-color: #f0f0f0;
   border-right: 1px solid white;
@@ -112,9 +141,16 @@ body {
   flex-direction: column;
 }
 
+.whether__desc--windSpeeds {
+  height: 6rem;
+}
+
 .whether__desc--hpa {
-  padding: 4.3rem 0;
+  height: 8.6rem;
   font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .whether__img {
@@ -129,4 +165,33 @@ body {
 
 .whether__background {
   background: #65cafa;
+}
+
+.whether__leftSide {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-right: 1px solid #eeeeee;
+}
+
+.owl-nav {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+}
+
+.owl-dots {
+  display: none;
+}
+
+button.owl-prev {
+  position: absolute;
+  left: 0;
+  outline: none;
+}
+
+button.owl-next {
+  position: absolute;
+  right: 0;
+  outline: none;
 }
