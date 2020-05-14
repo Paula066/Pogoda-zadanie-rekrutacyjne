@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 830px;
   margin: 0 auto;
 }
 
@@ -24,18 +24,25 @@ body {
   text-align: center;
 }
 
-.whether__img {
-  width: 100%;
-  height: 100%;
+.whether__arrowLeft {
+  padding: 30px 10px 14px 5px;
+  max-width: 30px;
+  transform: translateY(-5px);
+}
+
+.whether__arrowRight {
+  padding: 30px 5px 14px 10px;
+  max-width: 30px;
+  transform: translateY(-5px);
 }
 
 .whether__text {
   border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .whether__boxData2 {
@@ -57,12 +64,24 @@ body {
   display: flex;
 }
 
+.whether__box-left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 10px 0px 11px -9px rgba(0, 0, 0, 0.25);
+  border-right: 1px solid #eeeeee;
+  z-index: 10;
+}
+
 .whether__descLeft {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 1.1rem;
+}
+
+.whether__descLeft:not(:last-child) {
   border-bottom: 1px solid #eeeeee;
-  padding: 0 1rem;
 }
 
 .whether__desc {
@@ -86,14 +105,13 @@ body {
 
 .whether__desc--ico {
   height: 4.5rem;
+  align-items: center;
 }
 
 .whether__desc--temperature {
   font-weight: 500;
   font-size: 1.7rem;
-  display: flex;
   align-items: center;
-  justify-content: center;
   height: 10rem;
 }
 
@@ -107,7 +125,6 @@ body {
 
 .whether__desc--rain {
   font-size: 1.1rem;
-  display: flex;
   flex-direction: column;
   height: 7rem;
   justify-content: flex-end;
@@ -118,18 +135,16 @@ body {
 }
 
 .whether__desc--windDegree {
-  height: 5rem;
+  height: 6rem;
   background-color: #f0f0f0;
   border-right: 1px solid white;
   font-size: 1rem;
-  display: flex;
   flex-direction: column-reverse;
-  justify-content: center;
   align-items: center;
 }
 
 .whether__desc--windDegrees {
-  height: 5rem;
+  height: 6rem;
 }
 
 .whether__desc--windSpeed {
@@ -145,38 +160,37 @@ body {
   height: 6rem;
 }
 
+.whether__desc--windSpeedkmh {
+  margin-top: 0.5rem;
+}
+
 .whether__desc--hpa {
   height: 8.6rem;
   font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-.whether__img {
-  width: 75% !important;
-  height: 90%;
+.whether__cloudsPhoto {
+  width: 60% !important;
+  height: 77%;
 }
 
 .whether__windImg {
-  margin-bottom: 2rem;
-  width: 35% !important;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 30% !important;
 }
 
 .whether__background {
   background: #65cafa;
 }
 
-.whether__leftSide {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  border-right: 1px solid #eeeeee;
-}
-
 .owl-nav {
   position: absolute;
-  top: 45%;
+  top: 37%;
   width: 100%;
 }
 
@@ -188,10 +202,16 @@ button.owl-prev {
   position: absolute;
   left: 0;
   outline: none;
+  background: #e5e5e5 !important;
+  border-top-right-radius: 40px !important;
+  border-bottom-right-radius: 40px !important;
 }
 
 button.owl-next {
   position: absolute;
   right: 0;
   outline: none;
+  background: #e5e5e5 !important;
+  border-top-left-radius: 40px !important;
+  border-bottom-left-radius: 40px !important;
 }
