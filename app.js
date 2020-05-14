@@ -83,14 +83,14 @@ class App {
         this.app = document.querySelector('.whether__box-right');
         this.app.innerHTML = `
         <div class="whether__box-left">
-            <div class="whether__descLeft whether__desc--day">Dzień</div>
-            <div class="whether__descLeft whether__desc--hours">Godzina</div>
-            <div class="whether__descLeft whether__desc--ico">Prognoza</div>
-            <div class="whether__descLeft whether__desc--temp">Temperatura</div>
-            <div class="whether__descLeft whether__desc--rains">Opady</div>
-            <div class="whether__descLeft whether__desc--windDegrees">Kierunek wiatru</div>
-            <div class="whether__descLeft whether__desc--windSpeeds">Prędkość wiatru</div>
-            <div class="whether__descLeft whether__desc--hpa">Ciśnienie</div>
+            <div class="whether__descLeftSide whether__desc--day">Dzień</div>
+            <div class="whether__descLeftSide whether__desc--hours">Godzina</div>
+            <div class="whether__descLeftSide whether__desc--ico">Prognoza</div>
+            <div class="whether__descLeftSide whether__desc--temp">Temperatura</div>
+            <div class="whether__descLeftSide whether__desc--rains">Opady</div>
+            <div class="whether__descLeftSide whether__desc--windDegrees">Kierunek wiatru</div>
+            <div class="whether__descLeftSide whether__desc--windSpeeds">Prędkość wiatru</div>
+            <div class="whether__descLeftSide whether__desc--hpa">Ciśnienie</div>
         </div>
         <div class="whether__dataHour owl-carousel owl-theme">      
             ${this.weatherData.map(hourData => {
